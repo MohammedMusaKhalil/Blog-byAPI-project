@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.aa{
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button{
+    background-color: #04AA6D; /* Green */
+    color: white;   }
+#homePage, #postDetails, #newPost {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#postList, #commentsList {
+    list-style: none;
+    padding: 0;
+}
+
+#postList li, #commentsList li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#new-post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-post-form label {
+    margin-bottom: 5px;
+}
+
+#new-post-form input, #new-post-form textarea, #newPostForm button {
+    margin-bottom: 10px;
+}
